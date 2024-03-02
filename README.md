@@ -21,7 +21,7 @@ Esta es una solución para el [desafío del componente de código QR en Frontend
 
 ### Pantallazo
 
-![](screenshot.jpg)
+![](screenshot.png)
 
 
 ### Hipervinculos
