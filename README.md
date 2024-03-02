@@ -27,7 +27,7 @@ Esta es una solución para el [desafío del componente de código QR en Frontend
 ### Hipervinculos
 
 - URL solucion: [https://github.com/hectrhcc/Responsive-Design-con-CSS-Flexbox-y-Media-Queries](https://github.com/hectrhcc/Responsive-Design-con-CSS-Flexbox-y-Media-Queries)
-- URL del sitio en vivo: [Add live site URL here](https://your-live-site-url.com)
+- URL del sitio en vivo: [https://responsive-design-con-css-flexbox-y-media-queries.vercel.app](https://responsive-design-con-css-flexbox-y-media-queries.vercel.app)
 
 ## Mi proceso
 
