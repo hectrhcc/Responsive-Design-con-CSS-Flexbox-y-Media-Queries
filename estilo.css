@@ -1,0 +1,130 @@
+body{
+  background-color:hsl(212, 45%, 89%); 
+  font-family: 'Outfit', sans-serif;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column; 
+    font-family: 'Outfit'; 
+    border-radius:10px 16px; 
+    background-color: hsl(0, 0%, 100%); 
+    color: hsl(220, 15%, 55%); 
+    text-align: center; 
+    min-width: 200px; 
+    max-width: 300px; 
+    transform: translateY(50%);
+    height:50%;
+    padding-top:10px;
+    padding-bottom:23px;
+    margin:0 auto; 
+    justify-content: center; 
+    align-items: center;
+  }
+  .attribution { 
+    font-size: 10px; 
+    text-align: center; 
+    margin:0 auto;
+    padding-top:10px;
+    position:relative;
+    transform: translateY(10vw);
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+.salto-linea{
+    position: absolute; 
+    bottom: -2em; 
+    left: 50%; 
+    transform: translateX(-50%);
+    font-size: 10px; 
+}
+.salto-linea a{
+    margin-left:2px;
+}
+img {
+    border-radius:8px; 
+    background-color: hsl(220, 15%, 55%);
+    width:90%; 
+    margin:0 auto;
+}
+p {
+    color:hsl(218, 44%, 22%); 
+    text-align: center;  
+    font-size:15px; 
+    padding: 1px 30px;  
+    letter-spacing:-0.5px; 
+    font-weight:700 ; 
+    margin-bottom:1px; 
+    max-width: 210px; 
+    min-width: 150px; 
+}
+span {
+    font-size:10px; 
+    padding:10px; 
+    text-align: center; 
+    line-height:1;
+}
+@media (width < 375px), (width> 375px) {
+    /* Estilos para dispositivos móviles */
+    .contenedor {
+        width:50%;
+    }
+    span {
+    font-size:9px; 
+    padding:4px 1px; 
+    margin: 2px 1px;
+    display: flex; 
+    justify-content: center;
+    }
+    p{
+        padding: 0px 15px;
+        font-weight: bold;
+        margin-top:5px;
+    }
+    .attribution { 
+        transform: translateY(140px)   
+    }
+  }
+
+  @media (width >= 768px) {
+    .contenedor {
+        width:35%;
+    }
+    span {
+        font-size:12px; 
+        width:195px;
+        text-align: center;
+    }
+    p{  
+        font-size:19px; 
+        margin-top:10px;
+        text-align: center;
+        width:210px;
+        height:55px;
+    }
+    .attribution { 
+    transform: translateY(190px)
+    }
+  }
+  @media (width >= 1440px) {
+    /* Estilos para dispositivos de escritorio */
+    .contenedor {
+        width:17%;
+    }
+    span {
+        font-size:10px; 
+        width:195px;
+        text-align: center;
+    }
+    p{  
+        font-size:17px; 
+        margin-top:10px;
+        text-align: center;
+        width:175px;
+        height:45px;
+    }
+    .attribution { 
+    transform: translateY(180px)
+    }
+}
