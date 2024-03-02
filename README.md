@@ -21,7 +21,7 @@ Esta es una solución para el [desafío del componente de código QR en Frontend
 
 ### Pantallazo
 
-![](./screenshot.jpg)
+![](screenshot.jpg)
 
 
 ### Hipervinculos
@@ -60,17 +60,14 @@ Usar unidades de medida apropiadas es importante para un diseño coherente y ada
 ```
 
 Usar media querys con un rango en vez de las media query tradicionales, me refiero a usar con operadores como en los lenguajes de programación. 
+
 ```css
 @media (width> 375px) {
-  .
-  .
-  .
+  /*regla de css que corresponda*/
 }
 
  @media ( width >= 1440px) {
-  .
-  .
-  .
+ /*regla de css que corresponda*/
 }
 ```
 
